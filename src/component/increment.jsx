@@ -4,6 +4,7 @@ import {Increment,Decrement,Reset} from "./slice1"
 function Counter(){
 
     const count=useSelector((state)=>state.slice1.count)//state contain information of store
+    //subscribing to the event
     const dispatch=useDispatch();
     return(
         <>
@@ -14,4 +15,4 @@ function Counter(){
         </> 
     )
 }
-export default Counter;
+export default Counter; 

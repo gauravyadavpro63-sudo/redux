@@ -7,4 +7,4 @@ const stores=configureStore({
     }
 })
 
-export default stores;
+export default stores; 
